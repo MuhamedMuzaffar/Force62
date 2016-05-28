@@ -1,0 +1,36 @@
+body{ 
+  background: url(rio.jpg) no-repeat  ; 
+  //shorthand 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size:cover;
+}
+.table
+{
+ top:40%;
+ left:40%;
+ transform:translateX(40%) translateY(40%);
+}
+#firrow
+{
+font-style:italic;
+font-size:40px;
+font-family:"arial";}
+#secrow
+{
+font-style:italic;
+font-size:30px;
+font-family:"MV Boli";
+color:red;}
+
+#thirow
+{
+font-style:italic;
+font-size:30px;
+font-family:"arial";
+}
+td {
+    padding: 20px;
+text-align:center;
+}
